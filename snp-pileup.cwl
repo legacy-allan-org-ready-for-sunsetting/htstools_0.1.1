@@ -65,9 +65,23 @@ inputs:
     inputBinding:
       prefix: -d
 
+  min_base_quality:
+    type: int?
+    inputBinding:
+      prefix: --min-base-quality
+
+  min_read_counts:
+    type: int?
+    inputBinding:
+      prefix: --min-read-counts
+
+  min_map_quality:
+    type: int?
+    inputBinding:
+      prefix: --min-map-quality
+
 outputs:
   output_file:
     type: File
     outputBinding:
       glob: '*.*'
-
