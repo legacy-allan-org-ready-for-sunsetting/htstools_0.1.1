@@ -7,7 +7,7 @@ id: snp-pileup
 requirements:
   InlineJavascriptRequirement: {}
   DockerRequirement: 
-    dockerPull: roslin/pipeline-htstools:0.1.1
+    dockerPull: cmopipeline/facets-htstools:2.2.2
   ResourceRequirement:
     ramMin: 8000
     coresMin: 1
